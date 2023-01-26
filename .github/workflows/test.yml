@@ -23,4 +23,4 @@ jobs:
         python -m pytest .
     - name: Analysing the code with black
       run: |
-        python -m coverage .
+        coverage run -m pytest
