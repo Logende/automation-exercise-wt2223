@@ -7,3 +7,6 @@ The code used in this exercise is based on [Chapter 7 of the book "Learning Scie
 ## License
 
 Please check the `LICENSE` file in this repository.
+
+
+[![SSE CI/CD](https://github.com/Logende/automation-exercise-wt2223/actions/workflows/main.yml/badge.svg)](https://github.com/Logende/automation-exercise-wt2223/actions/workflows/main.yml)
