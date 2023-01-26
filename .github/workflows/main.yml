@@ -63,3 +63,15 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: my-artifact
+    - name: Coverage Report in console
+      run: |
+        coverage report
+    - name: Coverage Report in xml
+      run: |
+        coverage xml
+    - name: "Upload artifact"
+      uses: actions/upload-artifact@v2
+      with:
+        name: coverage.xml
+        path: coverage.xml
+        retention-days: 14
